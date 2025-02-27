@@ -1,0 +1,12 @@
+{
+    "first-service": {
+        "createItem": "https://petstore3.swagger.io/api/v3/pet",
+        "getItem": "/first-service/get-item",
+        "updateItem": "/first-service/update-item"
+    },
+    "second-service": {
+        "createEntry": "/second-service/create-entry",
+        "getEntry": "/second-service/get-entry",
+        "deleteEntry": "/second-service/delete-entry"
+    }
+}
