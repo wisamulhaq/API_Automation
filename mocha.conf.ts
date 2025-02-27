@@ -1,7 +1,7 @@
 const { execSync } = require('child_process');
 const path = require('path');
 
-let filePath = " D:/API_Automation/tests/test.spec.ts"
+let filePath = "<Path_of_your_test>"
 function runTests() {
 
   const timeout = 20000;
