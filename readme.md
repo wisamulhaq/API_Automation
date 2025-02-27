@@ -37,7 +37,7 @@ This project is designed to automate API testing using Mocha, TypeScript, and va
 
 1. Clone the repository:
      ```sh
-     git clone <repository-url>
+     git clone https://github.com/wisamulhaq/API_Automation
      ```
 2. Navigate to the project directory:
      ```sh
@@ -54,22 +54,6 @@ To run the tests, use the following command:
 ```sh
 ts-node mocha.conf.ts
 ```
-
-### Configuration
-
-The configuration settings are located in `main/config/config.json`. Update the settings as needed.
-
-### API Paths
-
-API paths are defined in `main/api/apiPath/paths.json`. Update the paths as needed for your API endpoints.
-
-### Payloads
-
-Payloads for API requests are defined in `main/api/firstService/payloads.ts`. Update the payloads as needed for your API requests.
-
-### Schema Validation
-
-Schema validation is performed using Zod in `main/api/firstService/schemaTest.ts`. Update the schemas as needed for your data validation.
 
 ## Dependencies
 
